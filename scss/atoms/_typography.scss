@@ -1,13 +1,46 @@
+@font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/Aleo/Aleo-Regular.eot?#') format('eot'),
+           url('../fonts/Aleo/Aleo-Regular.woff') format('woff'),
+             url('../fonts/Aleo/Aleo-Regular.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Aleo';
+    font-weight: bold;
+    src: url('../fonts/Aleo/Aleo-Bold.eot?#') format('eot'),
+           url('../fonts/Aleo/Aleo-Bold.woff') format('woff'),
+             url('../fonts/Aleo/Aleo-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir/Avenir-Regular.eot?#') format('eot'),
+           url('../fonts/Avenir/Avenir-Regular.woff') format('woff'),
+             url('../fonts/Avenir/Avenir-Regular.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Avenir';
+    font-weight: bold;
+    src: url('../fonts/Avenir/Avenir-Bold.eot?#') format('eot'),
+           url('../fonts/Avenir/Avenir-Bold.woff') format('woff'),
+             url('../fonts/Avenir/Avenir-Bold.ttf') format('truetype');
+}
+
+    
 nav a
 {
-    color: #FFFFFF;
+    color: $white;
     text-decoration: none;
     text-align: center;
     line-height: 1.25;
     h2{
     	font-size: 1.5em;
+        font-family: $sans;
+        text-transform: uppercase;
+//        font-weight: bold;
+        letter-spacing: .1em;
     }
     h4{
-    	font-style: italic;
+    	font-family: $sans;
+        color: $white;
     }
 }

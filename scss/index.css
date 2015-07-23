@@ -194,18 +194,40 @@ table {
 /**
  * Alias for j-cf().
  */
-/* line 1, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+@font-face {
+  font-family: 'Aleo';
+  src: url("../fonts/Aleo/Aleo-Regular.eot?#") format("eot"), url("../fonts/Aleo/Aleo-Regular.woff") format("woff"), url("../fonts/Aleo/Aleo-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Aleo';
+  font-weight: bold;
+  src: url("../fonts/Aleo/Aleo-Bold.eot?#") format("eot"), url("../fonts/Aleo/Aleo-Bold.woff") format("woff"), url("../fonts/Aleo/Aleo-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir/Avenir-Regular.eot?#") format("eot"), url("../fonts/Avenir/Avenir-Regular.woff") format("woff"), url("../fonts/Avenir/Avenir-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: bold;
+  src: url("../fonts/Avenir/Avenir-Bold.eot?#") format("eot"), url("../fonts/Avenir/Avenir-Bold.woff") format("woff"), url("../fonts/Avenir/Avenir-Bold.ttf") format("truetype"); }
+
+/* line 29, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
 nav a {
-  color: #FFFFFF;
+  color: #FFF;
   text-decoration: none;
   text-align: center;
   line-height: 1.25; }
-  /* line 7, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+  /* line 35, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
   nav a h2 {
-    font-size: 1.5em; }
-  /* line 10, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+    font-size: 1.5em;
+    font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    text-transform: uppercase;
+    letter-spacing: .1em; }
+  /* line 42, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
   nav a h4 {
-    font-style: italic; }
+    font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+    color: #FFF; }
 
 /* line 1, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_images.scss */
 .header-logo {
