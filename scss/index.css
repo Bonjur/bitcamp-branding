@@ -239,22 +239,21 @@ nav a {
     font-family: "Aleo", Georgia, Serif;
     color: #1a2e33;
     font-size: 1.5em;
-    font-weight: bold;
     padding-top: 1.5em; }
-  /* line 58, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+  /* line 59, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
   .document
 h3 {
     font-family: "Aleo", Georgia, Serif;
     color: #1a2e33;
     padding-top: 1em; }
-  /* line 66, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+  /* line 67, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
   .document ul {
     list-style: square; }
-    /* line 68, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+    /* line 69, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
     .document ul li {
       margin-left: 1.5em; }
 
-/* line 73, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+/* line 74, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
 h1 {
   padding: .75em;
   font-family: "Aleo", Georgia, Serif;
