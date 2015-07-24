@@ -229,6 +229,41 @@ nav a {
     font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
     color: #FFF; }
 
+/* line 47, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+.document {
+  line-height: 1.5;
+  color: #7F6C5F;
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, Sans-Serif; }
+  /* line 51, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+  .document h2 {
+    font-family: "Aleo", Georgia, Serif;
+    color: #1a2e33;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 1.5em; }
+  /* line 58, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+  .document
+h3 {
+    font-family: "Aleo", Georgia, Serif;
+    color: #1a2e33;
+    padding-top: 1em; }
+  /* line 66, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+  .document ul {
+    list-style: square; }
+    /* line 68, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+    .document ul li {
+      margin-left: 1.5em; }
+
+/* line 73, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_typography.scss */
+h1 {
+  padding: .75em;
+  font-family: "Aleo", Georgia, Serif;
+  color: #1a2e33;
+  font-size: 4em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold; }
+
 /* line 1, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/atoms/_images.scss */
 .header-logo {
   height: 4em;
@@ -255,5 +290,10 @@ nav li {
   /* line 15, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/molecules/_listItems-navigation.scss */
   nav li:nth-of-type(4) {
     background-color: #7F6C5F; }
+
+/* line 1, C:/Users/Alex/Documents/GitHub/bitcamp-branding/scss/organisms/_sections.scss */
+.document {
+  max-width: 960px;
+  margin: 0 auto auto; }
 
 /*# sourceMappingURL=index.css.map */
